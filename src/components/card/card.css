@@ -1,0 +1,22 @@
+.card {
+    text-align: center;
+    padding: 20px;
+    box-shadow: 1px 1px 5px rgb(105, 103, 103);
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.card h2 {
+    margin-top: 20px;
+}
+
+.card p {
+    margin-top: 10px;
+}

@@ -1,0 +1,8 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: inherit;
+    background: inherit;
+    padding: 20px 200px;
+}

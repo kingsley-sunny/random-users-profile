@@ -1,0 +1,29 @@
+React Scripts
+    1. start: this scripts start the development server
+    2. build: this will make the code as small as possible and put all the code related to one folder called build.
+    3. test: this is just the way to text you code.
+    4. eject:  this
+
+The entry port for any file is the index.js file
+
+
+CLASSES VS HOOKS
+    We have to start with clasess bcause classes is the foundation.
+
+STATE
+    State is a javaScript Object
+
+LIFECYCLE METHODS
+    These are methods that get called (automatically by react) at different stages when the component get rendered
+    componentDidMount() => This is called when the component is mount (automatically by react)
+
+PROPS AND CHILDREN
+    Props is a funtional parameter to a component WHILE
+    Children are what you passed in between the brackets of our component.
+
+SETSTATE
+    Every time you call setState() React re-render.
+
+CLASS METHOD AND ARROW FUNCTION IN REACT
+    
+EVENT BINDING IN REACT
