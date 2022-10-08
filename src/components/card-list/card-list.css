@@ -4,8 +4,19 @@
 
 .card-list {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 20px;
     margin: auto;
-}   
+}
 
+@media (min-width: 750px) {
+    .card-list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    .card-list {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
