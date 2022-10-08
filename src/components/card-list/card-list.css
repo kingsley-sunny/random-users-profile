@@ -1,5 +1,5 @@
 .card-list-main {
-    padding: 20px 200px;
+    padding: 20px 20px;
 }
 
 .card-list {
@@ -10,12 +10,20 @@
 }
 
 @media (min-width: 750px) {
+    .card-list-main {
+        max-width: 900px;
+        margin: auto;
+    }
     .card-list {
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
+    .card-list-main {
+        max-width: 1300px;
+        margin: auto;
+    }
     .card-list {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }

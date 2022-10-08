@@ -1,8 +1,26 @@
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     color: inherit;
     background: inherit;
-    padding: 20px 200px;
+    width: 100%;
+    padding: 20px;
+}
+
+@media (min-width: 750px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 900px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1300px;
+        margin: auto;
+    }
 }

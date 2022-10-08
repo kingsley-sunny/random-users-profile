@@ -5,6 +5,7 @@
     border: 5px solid rgb(187, 174, 174);
     position: relative;
     overflow: hidden;
+    border: 2px solid black;
 }
 
 .button-child1 {
@@ -22,7 +23,7 @@
 .change1 {
     left: 100%;
     margin-left: -45%;
-    animation: move .2s ease-in;
+    animation: move 0.2s ease-in;
 }
 
 .button-child2 {
